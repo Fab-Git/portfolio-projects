@@ -1,0 +1,2593 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Airbnb_Data (Airbnb_Data)' inline='true' name='federated.05qnd2q0qx41u115qwfy90b1h0ir' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Airbnb_Data' name='excel-direct.1fsm8b51w7mxoh1292d9l0ju9ndj'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Farzaneh/1.Tutorial/Merit America/Datasets/Airbnb_Data.csv/Airbnb_Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1fsm8b51w7mxoh1292d9l0ju9ndj' name='Airbnb_Data' table='[Airbnb_Data$]' type='table'>
+          <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='real' name='log_price' ordinal='1' />
+            <column datatype='string' name='property_type' ordinal='2' />
+            <column datatype='string' name='room_type' ordinal='3' />
+            <column datatype='string' name='amenities' ordinal='4' />
+            <column datatype='integer' name='accommodates' ordinal='5' />
+            <column datatype='real' name='bathrooms' ordinal='6' />
+            <column datatype='string' name='bed_type' ordinal='7' />
+            <column datatype='string' name='cancellation_policy' ordinal='8' />
+            <column datatype='boolean' name='cleaning_fee' ordinal='9' />
+            <column datatype='string' name='city' ordinal='10' />
+            <column datatype='string' name='description' ordinal='11' />
+            <column datatype='date' name='first_review' ordinal='12' />
+            <column datatype='string' name='host_has_profile_pic' ordinal='13' />
+            <column datatype='string' name='host_identity_verified' ordinal='14' />
+            <column datatype='real' name='host_response_rate' ordinal='15' />
+            <column datatype='date' name='host_since' ordinal='16' />
+            <column datatype='string' name='instant_bookable' ordinal='17' />
+            <column datatype='date' name='last_review' ordinal='18' />
+            <column datatype='real' name='latitude' ordinal='19' />
+            <column datatype='real' name='longitude' ordinal='20' />
+            <column datatype='string' name='name' ordinal='21' />
+            <column datatype='string' name='neighbourhood' ordinal='22' />
+            <column datatype='integer' name='number_of_reviews' ordinal='23' />
+            <column datatype='integer' name='review_scores_rating' ordinal='24' />
+            <column datatype='string' name='thumbnail_url' ordinal='25' />
+            <column datatype='integer' name='zipcode' ordinal='26' />
+            <column datatype='integer' name='bedrooms' ordinal='27' />
+            <column datatype='integer' name='beds' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1fsm8b51w7mxoh1292d9l0ju9ndj' name='Airbnb_Data' table='[Airbnb_Data$]' type='table'>
+          <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='real' name='log_price' ordinal='1' />
+            <column datatype='string' name='property_type' ordinal='2' />
+            <column datatype='string' name='room_type' ordinal='3' />
+            <column datatype='string' name='amenities' ordinal='4' />
+            <column datatype='integer' name='accommodates' ordinal='5' />
+            <column datatype='real' name='bathrooms' ordinal='6' />
+            <column datatype='string' name='bed_type' ordinal='7' />
+            <column datatype='string' name='cancellation_policy' ordinal='8' />
+            <column datatype='boolean' name='cleaning_fee' ordinal='9' />
+            <column datatype='string' name='city' ordinal='10' />
+            <column datatype='string' name='description' ordinal='11' />
+            <column datatype='date' name='first_review' ordinal='12' />
+            <column datatype='string' name='host_has_profile_pic' ordinal='13' />
+            <column datatype='string' name='host_identity_verified' ordinal='14' />
+            <column datatype='real' name='host_response_rate' ordinal='15' />
+            <column datatype='date' name='host_since' ordinal='16' />
+            <column datatype='string' name='instant_bookable' ordinal='17' />
+            <column datatype='date' name='last_review' ordinal='18' />
+            <column datatype='real' name='latitude' ordinal='19' />
+            <column datatype='real' name='longitude' ordinal='20' />
+            <column datatype='string' name='name' ordinal='21' />
+            <column datatype='string' name='neighbourhood' ordinal='22' />
+            <column datatype='integer' name='number_of_reviews' ordinal='23' />
+            <column datatype='integer' name='review_scores_rating' ordinal='24' />
+            <column datatype='string' name='thumbnail_url' ordinal='25' />
+            <column datatype='integer' name='zipcode' ordinal='26' />
+            <column datatype='integer' name='bedrooms' ordinal='27' />
+            <column datatype='integer' name='beds' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AC10001:no:A1:AC10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>log_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[log_price]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>log_price</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>property_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[property_type]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>property_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>room_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[room_type]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>room_type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>amenities</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[amenities]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>amenities</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>accommodates</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[accommodates]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>accommodates</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bathrooms</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bathrooms]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>bathrooms</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bed_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[bed_type]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>bed_type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cancellation_policy</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cancellation_policy]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>cancellation_policy</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cleaning_fee</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[cleaning_fee]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>cleaning_fee</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_review</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[first_review]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>first_review</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_has_profile_pic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[host_has_profile_pic]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>host_has_profile_pic</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_identity_verified</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[host_identity_verified]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>host_identity_verified</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_response_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[host_response_rate]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>host_response_rate</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_since</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[host_since]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>host_since</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>instant_bookable</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[instant_bookable]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>instant_bookable</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_review</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[last_review]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>last_review</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>neighbourhood</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[neighbourhood]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>neighbourhood</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_reviews]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>number_of_reviews</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>review_scores_rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[review_scores_rating]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>review_scores_rating</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thumbnail_url</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[thumbnail_url]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>thumbnail_url</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zipcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[zipcode]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>zipcode</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bedrooms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bedrooms]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>bedrooms</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>beds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[beds]</local-name>
+            <parent-name>[Airbnb_Data]</parent-name>
+            <remote-alias>beds</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' caption='Price Range ($)' datatype='integer' name='[Actual Price (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='2' formula='[Calculation_3349833722605453314]' peg='0' size='100' />
+      </column>
+      <column caption='Actual Price' datatype='real' name='[Calculation_3349833722605453314]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='EXP([log_price])' />
+      </column>
+      <column datatype='string' name='[Zipcode (group)]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal'>
+        <calculation class='categorical-bin' column='[zipcode]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;10002, 10009, 11206 and 9 more&quot;'>
+            <value>10002</value>
+            <value>10009</value>
+            <value>11206</value>
+            <value>11211</value>
+            <value>11216</value>
+            <value>11221</value>
+            <value>11238</value>
+            <value>20002</value>
+            <value>20009</value>
+            <value>90046</value>
+            <value>90291</value>
+            <value>94110</value>
+          </bin>
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Airbnb_Data' datatype='table' name='[__tableau_internal_object_id__].[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]' role='measure' type='quantitative' />
+      <column caption='Accommodates' datatype='integer' name='[accommodates]' role='measure' type='quantitative' />
+      <column caption='Amenities' datatype='string' name='[amenities]' role='dimension' type='nominal' />
+      <column caption='Bathrooms' datatype='real' name='[bathrooms]' role='measure' type='quantitative' />
+      <column caption='Bed Type' datatype='string' name='[bed_type]' role='dimension' type='nominal' />
+      <column caption='Number of Bedrooms' datatype='integer' name='[bedrooms]' role='measure' type='ordinal' />
+      <column caption='Beds' datatype='integer' name='[beds]' role='measure' type='quantitative' />
+      <column caption='Cancellation Policy' datatype='string' name='[cancellation_policy]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Cleaning Fee' datatype='boolean' name='[cleaning_fee]' role='dimension' type='nominal' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='First Review' datatype='date' name='[first_review]' role='dimension' type='ordinal' />
+      <column caption='Host Has Profile Pic' datatype='string' name='[host_has_profile_pic]' role='dimension' type='nominal' />
+      <column caption='Host Identity Verified' datatype='string' name='[host_identity_verified]' role='dimension' type='nominal' />
+      <column caption='Host Response Rate' datatype='real' name='[host_response_rate]' role='measure' type='quantitative' />
+      <column caption='Host Since' datatype='date' name='[host_since]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='integer' name='[id]' role='measure' type='quantitative' />
+      <column caption='Instant Bookable' datatype='string' name='[instant_bookable]' role='dimension' type='nominal' />
+      <column caption='Last Review' datatype='date' name='[last_review]' role='dimension' type='ordinal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Neighbourhood' datatype='string' name='[neighbourhood]' role='dimension' type='nominal' />
+      <column caption='Number Of Reviews' datatype='integer' name='[number_of_reviews]' role='measure' type='quantitative' />
+      <column caption='Property Type' datatype='string' name='[property_type]' role='dimension' type='nominal' />
+      <column caption='Review Scores Rating' datatype='integer' name='[review_scores_rating]' role='measure' type='quantitative' />
+      <column caption='Room Type' datatype='string' name='[room_type]' role='dimension' type='nominal' />
+      <column caption='Thumbnail Url' datatype='string' name='[thumbnail_url]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column-instance column='[Calculation_3349833722605453314]' derivation='Avg' name='[avg:Calculation_3349833722605453314:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[number_of_reviews]' derivation='Avg' name='[avg:number_of_reviews:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bedrooms]' derivation='None' name='[none:bedrooms:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+      <column-instance column='[room_type]' derivation='None' name='[none:room_type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calculation_3349833722605453314]' derivation='Sum' name='[sum:Calculation_3349833722605453314:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[number_of_reviews]' derivation='Sum' name='[sum:number_of_reviews:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Zipcode,Zipcode (group))]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:zipcode:ok]' />
+          <groupfilter function='level-members' level='[Zipcode (group)]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Farzaneh/AppData/Local/Temp/TableauTemp/#TableauTemp_08ry3nq18vookn10njxy40wdlqo9.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/13/2024 09:26:51 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>74111</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>log_price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[log_price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>log_price</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>755</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>property_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[property_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>property_type</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>room_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[room_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>room_type</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>amenities</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[amenities]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>amenities</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>51041</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>accommodates</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[accommodates]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>accommodates</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bathrooms</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[bathrooms]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bathrooms</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bed_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[bed_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bed_type</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cancellation_policy</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cancellation_policy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cancellation_policy</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cleaning_fee</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[cleaning_fee]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cleaning_fee</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>city</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>description</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>70310</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>first_review</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[first_review]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>first_review</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>4627</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>host_has_profile_pic</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[host_has_profile_pic]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>host_has_profile_pic</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>host_identity_verified</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[host_identity_verified]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>host_identity_verified</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>host_response_rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[host_response_rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>host_response_rate</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>92</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>host_since</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[host_since]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>host_since</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>7001</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>instant_bookable</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[instant_bookable]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>instant_bookable</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>last_review</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[last_review]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>last_review</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1732</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>latitude</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>74111</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>longitude</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>74111</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>name</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>70310</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>neighbourhood</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[neighbourhood]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>neighbourhood</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>946</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>number_of_reviews</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[number_of_reviews]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>number_of_reviews</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>397</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>review_scores_rating</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[review_scores_rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>review_scores_rating</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>thumbnail_url</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[thumbnail_url]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>thumbnail_url</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>65648</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>zipcode</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[zipcode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>zipcode</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1030</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bedrooms</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[bedrooms]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bedrooms</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>beds</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[beds]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>beds</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Airbnb_Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:city:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Boston&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NYC&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;LA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DC&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;SF&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Chicago&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Zipcode (group)]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;10002, 10009, 11206 and 9 more&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:Calculation_3349833722605453314:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.05qnd2q0qx41u115qwfy90b1h0ir].[sum:Calculation_3349833722605453314:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:number_of_reviews:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.05qnd2q0qx41u115qwfy90b1h0ir].[sum:number_of_reviews:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:bedrooms:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>93694</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:room_type:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Entire home/apt&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Private room&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Shared room&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='id' />
+        <field-sort-custom-order field='log_price' />
+        <field-sort-custom-order field='Calculation_3349833722605453314' />
+        <field-sort-custom-order field='property_type' />
+        <field-sort-custom-order field='room_type' />
+        <field-sort-custom-order field='amenities' />
+        <field-sort-custom-order field='accommodates' />
+        <field-sort-custom-order field='bathrooms' />
+        <field-sort-custom-order field='bed_type' />
+        <field-sort-custom-order field='cancellation_policy' />
+        <field-sort-custom-order field='cleaning_fee' />
+        <field-sort-custom-order field='city' />
+        <field-sort-custom-order field='description' />
+        <field-sort-custom-order field='first_review' />
+        <field-sort-custom-order field='host_has_profile_pic' />
+        <field-sort-custom-order field='host_identity_verified' />
+        <field-sort-custom-order field='host_response_rate' />
+        <field-sort-custom-order field='host_since' />
+        <field-sort-custom-order field='instant_bookable' />
+        <field-sort-custom-order field='last_review' />
+        <field-sort-custom-order field='latitude' />
+        <field-sort-custom-order field='longitude' />
+        <field-sort-custom-order field='name' />
+        <field-sort-custom-order field='neighbourhood' />
+        <field-sort-custom-order field='number_of_reviews' />
+        <field-sort-custom-order field='review_scores_rating' />
+        <field-sort-custom-order field='thumbnail_url' />
+        <field-sort-custom-order field='zipcode' />
+        <field-sort-custom-order field='bedrooms' />
+        <field-sort-custom-order field='beds' />
+        <field-sort-custom-order field='Zipcode (group)' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Airbnb_Data' id='Airbnb!Data_E17C355F32984BEA95DF58BE121F83A5'>
+            <properties context=''>
+              <relation connection='excel-direct.1fsm8b51w7mxoh1292d9l0ju9ndj' name='Airbnb_Data' table='[Airbnb_Data$]' type='table'>
+                <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='real' name='log_price' ordinal='1' />
+                  <column datatype='string' name='property_type' ordinal='2' />
+                  <column datatype='string' name='room_type' ordinal='3' />
+                  <column datatype='string' name='amenities' ordinal='4' />
+                  <column datatype='integer' name='accommodates' ordinal='5' />
+                  <column datatype='real' name='bathrooms' ordinal='6' />
+                  <column datatype='string' name='bed_type' ordinal='7' />
+                  <column datatype='string' name='cancellation_policy' ordinal='8' />
+                  <column datatype='boolean' name='cleaning_fee' ordinal='9' />
+                  <column datatype='string' name='city' ordinal='10' />
+                  <column datatype='string' name='description' ordinal='11' />
+                  <column datatype='date' name='first_review' ordinal='12' />
+                  <column datatype='string' name='host_has_profile_pic' ordinal='13' />
+                  <column datatype='string' name='host_identity_verified' ordinal='14' />
+                  <column datatype='real' name='host_response_rate' ordinal='15' />
+                  <column datatype='date' name='host_since' ordinal='16' />
+                  <column datatype='string' name='instant_bookable' ordinal='17' />
+                  <column datatype='date' name='last_review' ordinal='18' />
+                  <column datatype='real' name='latitude' ordinal='19' />
+                  <column datatype='real' name='longitude' ordinal='20' />
+                  <column datatype='string' name='name' ordinal='21' />
+                  <column datatype='string' name='neighbourhood' ordinal='22' />
+                  <column datatype='integer' name='number_of_reviews' ordinal='23' />
+                  <column datatype='integer' name='review_scores_rating' ordinal='24' />
+                  <column datatype='string' name='thumbnail_url' ordinal='25' />
+                  <column datatype='integer' name='zipcode' ordinal='26' />
+                  <column datatype='integer' name='bedrooms' ordinal='27' />
+                  <column datatype='integer' name='beds' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name=' Airbnb Listings by Room Type'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Distribution of Airbnb Listings by Room Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Airbnb_Data (Airbnb_Data)' name='federated.05qnd2q0qx41u115qwfy90b1h0ir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05qnd2q0qx41u115qwfy90b1h0ir'>
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='measure' type='quantitative' />
+            <column-instance column='[room_type]' derivation='None' name='[none:room_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[id]' derivation='CountD' name='[pcto:ctd:id:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Room Type' datatype='string' name='[room_type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:room_type:nk]' />
+              <wedge-size column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]' />
+              <size column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]' />
+              <text column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:room_type:nk]' />
+              <text column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[pcto:ctd:id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{643222BD-73D5-438E-9366-AF17F7C50528}' />
+    </worksheet>
+    <worksheet name='AVG Price by Room type'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Average Price by Room Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Airbnb_Data (Airbnb_Data)' name='federated.05qnd2q0qx41u115qwfy90b1h0ir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05qnd2q0qx41u115qwfy90b1h0ir'>
+            <column caption='Actual Price' datatype='real' name='[Calculation_3349833722605453314]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='EXP([log_price])' />
+            </column>
+            <column-instance column='[Calculation_3349833722605453314]' derivation='Avg' name='[avg:Calculation_3349833722605453314:qk]' pivot='key' type='quantitative' />
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[room_type]' derivation='None' name='[none:room_type:nk]' pivot='key' type='nominal' />
+            <column caption='Room Type' datatype='string' name='[room_type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:Calculation_3349833722605453314:qk]' value='C1033%' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-size' id='refline0' value='4' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='stroke-color' id='refline0' value='#57c8ac4b' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:room_type:nk]' />
+              <text column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:Calculation_3349833722605453314:qk]' />
+              <tooltip column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:Calculation_3349833722605453314:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:Calculation_3349833722605453314:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:Calculation_3349833722605453314:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:Calculation_3349833722605453314:qk]</rows>
+        <cols>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:room_type:nk]</cols>
+      </table>
+      <simple-id uuid='{D050566E-61A5-4D8E-8456-55BA4ED2D4A8}' />
+    </worksheet>
+    <worksheet name='Listing by the number of bedrooms'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Distribution of Airbnb Listings by Number of Bedrooms</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Airbnb_Data (Airbnb_Data)' name='federated.05qnd2q0qx41u115qwfy90b1h0ir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05qnd2q0qx41u115qwfy90b1h0ir'>
+            <column caption='Number of Bedrooms' datatype='integer' name='[bedrooms]' role='measure' type='ordinal' />
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='measure' type='quantitative' />
+            <column-instance column='[bedrooms]' derivation='None' name='[none:bedrooms:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[room_type]' derivation='None' name='[none:room_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[id]' derivation='CountD' name='[pcto:ctd:id:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Room Type' datatype='string' name='[room_type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:bedrooms:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:bedrooms:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:bedrooms:ok]' member='%null%' />
+                <groupfilter function='member' level='[none:bedrooms:ok]' member='7' />
+                <groupfilter function='member' level='[none:bedrooms:ok]' member='8' />
+                <groupfilter function='member' level='[none:bedrooms:ok]' member='9' />
+                <groupfilter function='member' level='[none:bedrooms:ok]' member='10' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:bedrooms:ok]' direction='ASC'>
+            <dictionary>
+              <bucket>1</bucket>
+              <bucket>2</bucket>
+              <bucket>0</bucket>
+              <bucket>3</bucket>
+              <bucket>4</bucket>
+              <bucket>5</bucket>
+              <bucket>6</bucket>
+              <bucket>7</bucket>
+              <bucket>9</bucket>
+              <bucket>8</bucket>
+              <bucket>10</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:bedrooms:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]' scope='rows' value='Number of Listings' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[pcto:ctd:id:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:room_type:nk]' />
+              <text column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[pcto:ctd:id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='-90' />
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]</rows>
+        <cols>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:bedrooms:ok]</cols>
+      </table>
+      <simple-id uuid='{17D811A2-502E-4FCB-A037-BAD9457C3275}' />
+    </worksheet>
+    <worksheet name='Price Distribution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Price Distribution of Airbnb Listings</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Airbnb_Data (Airbnb_Data)' name='federated.05qnd2q0qx41u115qwfy90b1h0ir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05qnd2q0qx41u115qwfy90b1h0ir'>
+            <column aggregation='None' caption='Price Range ($)' datatype='integer' name='[Actual Price (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='2' formula='[Calculation_3349833722605453314]' peg='0' size='100' />
+            </column>
+            <column caption='Actual Price' datatype='real' name='[Calculation_3349833722605453314]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='EXP([log_price])' />
+            </column>
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='measure' type='quantitative' />
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[Actual Price (bin)]' derivation='None' name='[none:Actual Price (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[id]' derivation='CountD' name='[pcto:ctd:id:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:Actual Price (bin):qk]' included-values='in-range'>
+            <min>0</min>
+            <max>9</max>
+          </filter>
+          <slices>
+            <column>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:Actual Price (bin):qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:Actual Price (bin):qk]' value='65' />
+            <format attr='title' class='0' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]' scope='rows' value='Number of Listings' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]' num-steps='5' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='stroke-size' id='refline1' value='4' />
+            <format attr='stroke-color' id='refline1' value='#75a1c7' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dashed' />
+            <format attr='text-orientation' id='refline1' value='90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]' />
+              <text column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[pcto:ctd:id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]</rows>
+        <cols>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:Actual Price (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[Actual Price (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{1EC725AB-DFB3-461C-A3FA-F952A84D46DB}' />
+    </worksheet>
+    <worksheet name='Top 10 in-demand zip codes'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Airbnb&apos;s Most Popular Zip Codes by Review Count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Airbnb_Data (Airbnb_Data)' name='federated.05qnd2q0qx41u115qwfy90b1h0ir' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.05qnd2q0qx41u115qwfy90b1h0ir'>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[number_of_reviews]' derivation='CountD' name='[ctd:number_of_reviews:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
+            <column caption='Number Of Reviews' datatype='integer' name='[number_of_reviews]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:zipcode:ok]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNTD([number_of_reviews])' function='order' user:ui-marker='order'>
+                <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='level-members' level='[none:zipcode:ok]' />
+                  <groupfilter function='member' level='[none:zipcode:ok]' member='%null%' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:zipcode:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:number_of_reviews:qk]' num-steps='5' palette='green_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='alternate-text' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:number_of_reviews:qk]' value='' />
+            <format attr='display-alternate-text' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:number_of_reviews:qk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:number_of_reviews:qk]' />
+              <size column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:number_of_reviews:qk]' />
+              <text column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:city:nk]' />
+              <text column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:zipcode:ok]' />
+              <text column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:number_of_reviews:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>City: &lt;</run>
+                <run>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:city:nk]</run>
+                <run>&gt;&#10;Zipcode: &lt;</run>
+                <run>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:zipcode:ok]</run>
+                <run>&gt;&#10;#Reviews: &lt;</run>
+                <run>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:number_of_reviews:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F49324ED-515D-44A4-BCFB-AA70F7C874DF}' />
+    </worksheet>
+    <worksheet name='Top 10 neighborhoods'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Top 10 Most Popular Airbnb Neighborhoods by Average Reviews</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Airbnb_Data (Airbnb_Data)' name='federated.05qnd2q0qx41u115qwfy90b1h0ir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05qnd2q0qx41u115qwfy90b1h0ir'>
+            <column-instance column='[number_of_reviews]' derivation='Avg' name='[avg:number_of_reviews:qk]' pivot='key' type='quantitative' />
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Neighbourhood' datatype='string' name='[neighbourhood]' role='dimension' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[neighbourhood]' derivation='None' name='[none:neighbourhood:nk]' pivot='key' type='nominal' />
+            <column caption='Number Of Reviews' datatype='integer' name='[number_of_reviews]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:city:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;NYC&quot;</bucket>
+              <bucket>&quot;Chicago&quot;</bucket>
+              <bucket>&quot;DC&quot;</bucket>
+              <bucket>&quot;LA&quot;</bucket>
+              <bucket>&quot;SF&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:neighbourhood:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([number_of_reviews])' function='order' user:ui-marker='order'>
+                <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='level-members' level='[none:neighbourhood:nk]' />
+                  <groupfilter function='member' level='[none:neighbourhood:nk]' member='%null%' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:neighbourhood:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:number_of_reviews:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:neighbourhood:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:number_of_reviews:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-size' id='refline0' value='4' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='stroke-color' id='refline0' value='#76b7b286' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:neighbourhood:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.05qnd2q0qx41u115qwfy90b1h0ir].[avg:number_of_reviews:qk]</rows>
+        <cols>([federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:city:nk] / [federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:neighbourhood:nk])</cols>
+      </table>
+      <simple-id uuid='{E816E629-ABBA-42FF-8EF9-45CD4C91FFCE}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98002' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='98002' id='5' type-v2='layout-basic' w='99034' x='483' y='999'>
+              <zone h='48995' id='9' name=' Airbnb Listings by Room Type' w='24564' x='74953' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48995' id='11' name='Top 10 in-demand zip codes' w='38620' x='483' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49007' id='13' name='Price Distribution' w='36976' x='31508' y='49994'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48995' id='15' name='Listing by the number of bedrooms' w='35850' x='39103' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49007' id='16' name='Top 10 neighborhoods' w='31033' x='68484' y='49994'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49007' id='18' name='AVG Price by Room type' w='31025' x='483' y='49994'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='19' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone fixed-size='280' h='48995' id='11' is-fixed='true' name='Top 10 in-demand zip codes' w='38620' x='483' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48995' id='15' is-fixed='true' name='Listing by the number of bedrooms' w='35850' x='39103' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48995' id='9' is-fixed='true' name=' Airbnb Listings by Room Type' w='24564' x='74953' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49007' id='18' is-fixed='true' name='AVG Price by Room type' w='31025' x='483' y='49994'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49007' id='13' is-fixed='true' name='Price Distribution' w='36976' x='31508' y='49994'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49007' id='16' is-fixed='true' name='Top 10 neighborhoods' w='31033' x='68484' y='49994'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4EFF8662-54DD-487E-BEF8-D1A825D05AD3}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='44'>
+    <window class='worksheet' name='AVG Price by Room type'>
+      <cards>
+        <edge name='left'>
+          <strip size='133'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='25'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='133'>
+            <card pane-specification-id='0' param='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:room_type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{936A3DA1-0B5B-42AB-963E-E77749E09A05}' />
+    </window>
+    <window class='worksheet' name=' Airbnb Listings by Room Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='133'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='25'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='133'>
+            <card pane-specification-id='0' param='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:room_type:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{E251D55D-A614-43DC-A216-82F9515DA5CD}' />
+    </window>
+    <window class='worksheet' name='Top 10 in-demand zip codes'>
+      <cards>
+        <edge name='left'>
+          <strip size='133'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='25'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='133'>
+            <card pane-specification-id='0' param='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:number_of_reviews:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{5507B718-2EA1-40A8-8235-AF4D1C417915}' />
+    </window>
+    <window class='worksheet' name='Price Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='134'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='25'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='133'>
+            <card pane-specification-id='0' param='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[ctd:id:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{4AD463A3-2D45-4EE2-A655-D089D5DC8BBB}' />
+    </window>
+    <window class='worksheet' name='Top 10 neighborhoods'>
+      <cards>
+        <edge name='left'>
+          <strip size='133'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='25'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='133'>
+            <card pane-specification-id='0' param='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:neighbourhood:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{E0EA8717-8F49-4BDB-B161-23842DE183E9}' />
+    </window>
+    <window class='worksheet' name='Listing by the number of bedrooms'>
+      <cards>
+        <edge name='left'>
+          <strip size='132'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='24'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='132'>
+            <card pane-specification-id='0' param='[federated.05qnd2q0qx41u115qwfy90b1h0ir].[none:room_type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{E3EE8517-E3F4-4904-8B77-4824416B7C11}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name=' Airbnb Listings by Room Type'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='AVG Price by Room type'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Listing by the number of bedrooms'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Price Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 in-demand zip codes' />
+        <viewpoint name='Top 10 neighborhoods'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='11' />
+      <simple-id uuid='{98B60B97-151C-44AA-8F47-B00F7B99E4CE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Listing by the number of bedrooms' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
