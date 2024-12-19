@@ -76,7 +76,7 @@ duplicates <- daily_activity %>%
 ```r
 daily_activity <- daily_activity %>%
   mutate(TotalSleep = ifelse(Daily_sleep == "#N/A", 0, Daily_sleep))
-
+```
 ---
 
 ## 4. Analyze
@@ -97,7 +97,7 @@ summary_data <- daily_activity_cleaned %>%
     max_sleep = max(DailySleep, na.rm = TRUE),
     avg_sleep = mean(DailySleep, na.rm = TRUE)
   )
-
+```
 ### Key Insights:
 - **Daily Calories Burned**: Most users burned between 1,500 and 2,500 calories daily.
 - **Daily Steps**: Users generally took between 5,000 and 10,000 steps per day, with decreased activity on weekends.
