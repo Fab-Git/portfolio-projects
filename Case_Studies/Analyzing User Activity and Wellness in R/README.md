@@ -52,7 +52,7 @@ daily_sleep <- daily_sleep %>% rename(Id = id, TotalSleep = total_sleep)
 
 # Standardize date formats
 daily_activity$ActivityDate <- mdy(daily_activity$ActivityDate)
-
+```
 ---
 
 ## 3. Process
