@@ -7,7 +7,6 @@ By leveraging data from Bellabeat devices, the study identifies actionable insig
 
 ---
 
-## Framework
 1. **Ask**: Define the business task and set objectives.
 2. **Prepare**: Gather and clean data for analysis.
 3. **Process**: Conduct exploratory data analysis (EDA) and calculate summary statistics.
@@ -115,9 +114,9 @@ aggr_calories AS (
 SELECT CORR(DailySteps, total_calories) AS correlation_steps_calories
 FROM distinct_steps ds
 INNER JOIN aggr_calories ac ON ac.id = ds.id;
-
-**Result:** Correlation between steps and calories = **0.24**.
 ```
+**Result:** Correlation between steps and calories = **0.24**.
+
 ---
 
 ## 5. Share
