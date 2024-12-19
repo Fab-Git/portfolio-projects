@@ -35,7 +35,7 @@ SELECT 'ratings' AS table_name, COUNT(*) AS row_count FROM ratings
 UNION ALL
 SELECT 'role_mapping' AS table_name, COUNT(*) AS row_count FROM role_mapping
 ORDER BY row_count DESC;
-
+```
 **Insight:** The dataset’s largest table, names, contains over 25,000 records, providing a comprehensive view of actors, directors, and movies.
 
 ### 2. **Handling Missing Data in the Movie Table**
@@ -50,7 +50,7 @@ SELECT COUNT(*) AS total_rows,
     SUM(CASE WHEN worlwide_gross_income IS NULL THEN 1 ELSE 0 END) AS worldwide_gross_income_nulls,
     SUM(CASE WHEN production_company IS NULL THEN 1 ELSE 0 END) AS production_company_nulls
 FROM movie;
-
+```
 **Insight:** Columns like worlwide_gross_income and production_company have significant missing data, requiring cleaning for accurate analysis.
 
 ### 3. **Trends in Movie Releases**
@@ -63,7 +63,7 @@ SELECT MONTH(date_published) AS month, COUNT(id)
 FROM movie 
 GROUP BY month 
 ORDER BY month;
-
+```
 **Insight:** March is the most active month for movie releases, providing insights into optimal release schedules.
 
 ### 4. **Genre Distribution & Top Genres**
@@ -75,7 +75,7 @@ ORDER BY month;
     GROUP BY genre
     ORDER BY genre_count DESC
     LIMIT 1;
-
+```
 **Insight:** The Drama genre has the highest number of movies produced.
 
 **Movies with Multiple Genres**
@@ -87,7 +87,7 @@ FROM (
     GROUP BY movie_id
     HAVING movie_genre_count = 1
 ) AS mv;
-
+```
 **Insight:** Over 3,000 movies have only one genre, indicating a trend toward genre-specific storytelling.
 
 ### 5. **Top Performers by Ratings**
@@ -120,7 +120,7 @@ AND r.avg_rating > 8
 GROUP BY nm.name
 ORDER BY movie_count DESC
 LIMIT 3;
-
+```
 **Insight:** Highly rated directors and actors bring strong box office appeal, guiding talent hiring decisions.
 
 ### 6. **Analyzing Production House Success**
@@ -135,7 +135,7 @@ GROUP BY production_company
 ORDER BY vote_count DESC;
 
 **Insight:** Production houses with high audience engagement are ideal candidates for partnerships.
-
+```
 ### 7. **Movie Performance Analysis**
 
 **Classifying Thriller Movies by Performance**
@@ -152,7 +152,7 @@ INNER JOIN ratings r ON r.movie_id = m.id
 INNER JOIN genre g ON g.movie_id = m.id
 WHERE g.genre = 'Thriller'
 ORDER BY r.avg_rating DESC;
-
+```
 **Insight:** Classifies thriller movies into categories like "Superhit" or "Flop" based on average ratings, guiding future investments in this genre.
 
 ## Technologies Used
