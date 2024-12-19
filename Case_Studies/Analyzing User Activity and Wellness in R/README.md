@@ -71,7 +71,7 @@ daily_activity$ActivityDate <- mdy(daily_activity$ActivityDate)
 duplicates <- daily_activity %>%
   group_by(Id, ActivityDate) %>%
   filter(n() > 1)
-
+```
 #### Missing Values Handling:
 ```r
 daily_activity <- daily_activity %>%
