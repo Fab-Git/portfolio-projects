@@ -46,12 +46,11 @@ SELECT COUNT(*) as total_records FROM `Bellabeat_wellness.daily_activity_all`;
 # Unique users
 SELECT COUNT(DISTINCT id) as unique_users FROM `Bellabeat_wellness.daily_activity_all`;
 
-**Handling Missing Values in Daily Sleep**
-```sql
+# Handling Missing Values in Daily Sleep
 UPDATE `Bellabeat_wellness.daily_activity_all`
 SET Daily_sleep = 0
 WHERE Daily_sleep = '#N/A';
-
+```
 ---
 
 ## 3. Process
@@ -90,7 +89,7 @@ SELECT
 FROM distinct_steps ds
 INNER JOIN aggr_calories ac ON ds.id = ac.id
 INNER JOIN aggr_sleep asl ON asl.id = ds.id;
-
+```
 ---
 
 ## 4. Analyze
@@ -118,7 +117,7 @@ FROM distinct_steps ds
 INNER JOIN aggr_calories ac ON ac.id = ds.id;
 
 **Result:** Correlation between steps and calories = **0.24**.
-
+```
 ---
 
 ## 5. Share
